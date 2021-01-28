@@ -1,6 +1,7 @@
 <template>
   <div id="add-group">
     <button @mousedown="clickDown" @mouseup="clickUp" :class="mouseDown === true ? 'mouse-down' : ''">{{ btnName }}</button>
+  </div>
 </template>
 
 <script>
